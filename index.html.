@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAR LINK | Compra y vende tu auto</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#17212b}
+header{background:#101d2b;color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:27px;font-weight:bold;letter-spacing:1px}
+.logo span{color:#f5a623}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{background:#172b40;color:white;text-align:center;padding:75px 20px}
+.hero h1{font-size:42px;margin:0 0 15px}
+.hero p{font-size:18px;color:#d5dce4}
+.btn{display:inline-block;background:#f5a623;color:#17212b;padding:14px 25px;border-radius:7px;text-decoration:none;font-weight:bold;margin:10px 5px}
+section{padding:45px 7%}
+h2{text-align:center;font-size:28px}
+.cars{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:white;padding:22px;border-radius:12px;box-shadow:0 3px 14px #00000012}
+.car-icon{font-size:55px;text-align:center;background:#e9eef3;padding:25px;border-radius:8px}
+.card h3{margin-bottom:8px}
+.price{color:#d58b12;font-size:21px;font-weight:bold}
+.contact{text-align:center;background:#172b40;color:white}
+footer{text-align:center;padding:25px;background:#101d2b;color:white}
+@media(max-width:600px){header{flex-direction:column;gap:15px}nav a{margin:7px;font-size:12px}.hero h1{font-size:32px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">CAR <span>LINK</span></div>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#vehiculos">Vehículos</a>
+<a href="#publicar">Publicar</a>
+</nav>
+</header>
+
+<div class="hero" id="inicio">
+<h1>Tu próximo auto está aquí</h1>
+<p>Compra y vende vehículos directamente en Cuba.</p>
+<a class="btn" href="#vehiculos">Ver vehículos</a>
+<a class="btn" href="#publicar">Publicar mi auto</a>
+</div>
+
+<section id="vehiculos">
+<h2>Vehículos disponibles</h2>
+<p style="text-align:center">Encuentra el vehículo que estás buscando.</p>
+<div class="cars">
+<div class="card">
+<div class="car-icon">🚗</div>
+<h3>Próximamente</h3>
+<p>Los primeros vehículos estarán aquí.</p>
+</div>
+</div>
+</section>
+
+<section id="publicar">
+<h2>¿Quieres vender tu auto?</h2>
+<p style="text-align:center">CAR LINK conecta directamente a propietarios y compradores.</p>
+<div style="text-align:center">
+<a class="btn" href="mailto:contacto@carlink.com">Próximamente: publicar vehículo</a>
+</div>
+</section>
+
+<section class="contact">
+<h2>¿Necesitas ayuda con los trámites?</h2>
+<p>Próximamente podrás contactar con notarios y gestores.</p>
+</section>
+
+<footer>
+<p>CAR LINK © 2026 | Conectando a Cuba sobre ruedas.</p>
+</footer>
+</body>
+</html>
